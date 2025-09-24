@@ -45,6 +45,11 @@ html {
   .container-max {
     @apply max-w-7xl mx-auto;
   }
+
+  /* Top padding equal to header height (h-20 = 5rem) plus safe area */
+  .pt-header-safe {
+    padding-top: calc(5rem + env(safe-area-inset-top));
+  }
 }
 
 /* Loading animation */
