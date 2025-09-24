@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
 
               {/* Contact Methods */}
               <div className="space-y-6">
-                {contactInfo.map((info, index) => (
+                {contactInfo.map((info) => (
                   <motion.a
                     key={info.title}
                     href={info.href}

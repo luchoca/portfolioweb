@@ -164,7 +164,7 @@ const About: React.FC = () => {
 
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-6">
-                {stats.map((stat, index) => (
+                {stats.map((stat) => (
                   <motion.div
                     key={stat.label}
                     variants={itemVariants}

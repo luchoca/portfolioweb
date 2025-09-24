@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import { useScrollToSection } from '../hooks/useScrollToSection';
 
 const Hero: React.FC = () => {

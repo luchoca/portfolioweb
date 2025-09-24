@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { projects } from '../data/portfolio';
-import { Project, ProjectCategory } from '../types';
+import { ProjectCategory } from '../types';
 import { ExternalLink, Github, Eye } from 'lucide-react';
 
 const Projects: React.FC = () => {

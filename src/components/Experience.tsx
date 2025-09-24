@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { experiences } from '../data/portfolio';
-import { Calendar, MapPin, Award, ChevronRight } from 'lucide-react';
+import { Calendar, Award, ChevronRight } from 'lucide-react';
 
 const Experience: React.FC = () => {
   const { elementRef, isIntersecting } = useIntersectionObserver({
