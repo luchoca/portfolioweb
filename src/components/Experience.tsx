@@ -203,7 +203,7 @@ const Experience: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                    4+
+                    3+
                   </div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
                     Años de experiencia
@@ -211,7 +211,7 @@ const Experience: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                    50+
+                    2+
                   </div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
                     Proyectos completados
@@ -219,7 +219,7 @@ const Experience: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                    30+
+                    3+
                   </div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
                     Clientes satisfechos

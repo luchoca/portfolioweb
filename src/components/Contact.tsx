@@ -67,19 +67,19 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'luciano@example.com',
-      href: 'mailto:luciano@example.com'
+      value: 'lucianocastrosaad@gmail.com',
+      href: 'mailto:lucianocastrosaad@gmail.com'
     },
     {
       icon: Phone,
       title: 'Teléfono',
-      value: '+54 9 11 1234-5678',
-      href: 'tel:+5491112345678'
+      value: '+598 98 700 322',
+      href: 'tel:+59898700322'
     },
     {
       icon: MapPin,
       title: 'Ubicación',
-      value: 'Buenos Aires, Argentina',
+      value: 'Montevideo, Uruguay',
       href: '#'
     }
   ];

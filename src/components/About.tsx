@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { Award, Code, Users, Coffee } from 'lucide-react';
+const fotoPerfilUrl = new URL('../assets/foto-perfil.jpeg', import.meta.url).href;
 
 const About: React.FC = () => {
   const { elementRef, isIntersecting } = useIntersectionObserver({
@@ -34,9 +35,9 @@ const About: React.FC = () => {
 
   const stats = [
     { icon: Code, label: 'Proyectos Completados', value: '50+' },
-    { icon: Users, label: 'Clientes Satisfechos', value: '30+' },
-    { icon: Award, label: 'Años de Experiencia', value: '4+' },
-    { icon: Coffee, label: 'Tazas de Café', value: '1000+' }
+    { icon: Users, label: 'Clientes Satisfechos', value: '1+' },
+    { icon: Award, label: 'Años de Experiencia', value: '3+' },
+    { icon: Coffee, label: 'Mates', value: '1000+' }
   ];
 
   return (
@@ -64,21 +65,22 @@ const About: React.FC = () => {
             <motion.div variants={itemVariants} className="space-y-6">
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  Soy un <strong className="text-primary-600 dark:text-primary-400">Desarrollador Full Stack</strong> con más de 4 años de experiencia 
-                  creando aplicaciones web y móviles modernas. Mi pasión por la tecnología me ha llevado a especializarme 
-                  en el ecosistema JavaScript, especialmente en <strong>React</strong> y <strong>Node.js</strong>.
+                  Soy un <strong className="text-primary-600 dark:text-primary-400">Desarrollador Full Stack</strong>con 3 años de experiencia en Sofka. Me formé en un bootcamp donde aprendí bases sólidas en Java, JavaScript, React, Angular, Node.js, SQL, MongoDB y Docker.
+                  Trabajo en la billetera digital DALE (Colombia), donde me especializo en Mambu y Framebanking, resolviendo problemas reales en equipo, bajo presión y en contacto directo con clientes.
+                  Además, desde hace 2 años soy profesor en Jóvenes Creativos (Fundación ROFE), enseñando HTML, CSS, JavaScript, Node.js y React a nuevos programadores, lo que reforzó mis conocimientos y habilidades de comunicación.
+                  Siempre busco estar a la vanguardia, aprender nuevas tecnologías y aportar soluciones efectivas. 🚀.
                 </p>
-                
+{/* 
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  Me enfoco en escribir código limpio, escalable y mantenible, siempre siguiendo las mejores prácticas 
-                  de desarrollo. Disfruto trabajando en equipo y creo firmemente en la importancia de la colaboración 
+                  Me enfoco en escribir código limpio, escalable y mantenible, siempre siguiendo las mejores prácticas
+                  de desarrollo. Disfruto trabajando en equipo y creo firmemente en la importancia de la colaboración
                   y el aprendizaje continuo.
                 </p>
-                
+
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  Cuando no estoy programando, me gusta explorar nuevas tecnologías, contribuir a proyectos open source, 
+                  Cuando no estoy programando, me gusta explorar nuevas tecnologías, contribuir a proyectos open source,
                   y compartir conocimiento a través de artículos técnicos y charlas en la comunidad.
-                </p>
+                </p> */}
               </div>
 
               {/* Skills Highlights */}
@@ -120,15 +122,13 @@ const About: React.FC = () => {
                   {/* Background decoration */}
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-200 to-primary-400 dark:from-primary-800 dark:to-primary-600 rounded-2xl transform rotate-6"></div>
                   <div className="absolute inset-0 bg-gradient-to-br from-primary-300 to-primary-500 dark:from-primary-700 dark:to-primary-500 rounded-2xl transform -rotate-6"></div>
-                  
-                  {/* Image placeholder */}
+
+                  {/* Profile image */}
                   <div className="relative w-full h-full bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden">
-                    <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400 dark:from-gray-600 dark:to-gray-700 flex items-center justify-center">
-                      <span className="text-6xl font-bold text-gray-500 dark:text-gray-400">LC</span>
-                    </div>
+                    <img src={fotoPerfilUrl} alt="Foto de perfil" className="w-full h-full object-cover" />
                   </div>
                 </div>
-                
+
                 {/* Floating elements */}
                 <motion.div
                   animate={{
@@ -144,7 +144,7 @@ const About: React.FC = () => {
                 >
                   4+
                 </motion.div>
-                
+
                 <motion.div
                   animate={{
                     y: [0, 10, 0],

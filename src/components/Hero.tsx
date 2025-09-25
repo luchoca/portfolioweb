@@ -160,7 +160,7 @@ const Hero: React.FC = () => {
             className="flex justify-center space-x-6 mb-12"
           >
             <motion.a
-              href="https://github.com/lucianocastro"
+              href="https://github.com/luchoca"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -171,7 +171,7 @@ const Hero: React.FC = () => {
               <Github className="w-6 h-6" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/lucianocastro"
+              href="https://www.linkedin.com/in/luchocastrosaad/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -182,7 +182,7 @@ const Hero: React.FC = () => {
               <Linkedin className="w-6 h-6" />
             </motion.a>
             <motion.a
-              href="mailto:luciano@example.com"
+              href="mailto:lucianocastrosaad@gmail.com"
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
               className="p-3 bg-gray-100 dark:bg-dark-800 rounded-full text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-all duration-300"

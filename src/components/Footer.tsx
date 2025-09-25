@@ -10,13 +10,13 @@ const Footer: React.FC = () => {
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/lucianocastro',
+      href: 'https://github.com/luchoca',
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/lucianocastro',
+      href: 'https://www.linkedin.com/in/luchocastrosaad/',
       color: 'hover:text-blue-600'
     },
     {
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:luciano@example.com',
+      href: 'mailto:lucianocastrosaad@gmail.com',
       color: 'hover:text-red-500'
     }
   ];
@@ -147,13 +147,13 @@ const Footer: React.FC = () => {
               >
                 <div className="flex items-center space-x-3 text-gray-400">
                   <Mail className="w-4 h-4" />
-                  <span>luciano@example.com</span>
+                  <span>lucianocastrosaad@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-400">
                   <div className="w-4 h-4 flex items-center justify-center">
                     📍
                   </div>
-                  <span>Buenos Aires, Argentina</span>
+                  <span>Montevideo, Uruguay</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-400">
                   <div className="w-4 h-4 flex items-center justify-center">
@@ -177,7 +177,7 @@ const Footer: React.FC = () => {
             >
               <span>© 2024 Luciano Castro. Hecho con</span>
               <Heart className="w-4 h-4 text-red-500" />
-              <span>y mucho café</span>
+              <span>y mucho mate</span>
             </motion.div>
 
             <motion.button
